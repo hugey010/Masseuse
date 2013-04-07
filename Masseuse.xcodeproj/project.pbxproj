@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		962EDA84170D055B0078F3A7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962EDA83170D055B0078F3A7 /* UIKit.framework */; };
+		962EDA86170D055B0078F3A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962EDA85170D055B0078F3A7 /* Foundation.framework */; };
+		962EDA88170D055B0078F3A7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962EDA87170D055B0078F3A7 /* CoreGraphics.framework */; };
+		962EDA8E170D055B0078F3A7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 962EDA8C170D055B0078F3A7 /* InfoPlist.strings */; };
+		962EDA90170D055B0078F3A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 962EDA8F170D055B0078F3A7 /* main.m */; };
+		962EDA94170D055B0078F3A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 962EDA93170D055B0078F3A7 /* AppDelegate.m */; };
+		962EDA96170D055B0078F3A7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 962EDA95170D055B0078F3A7 /* Default.png */; };
+		962EDA98170D055B0078F3A7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 962EDA97170D055B0078F3A7 /* Default@2x.png */; };
+		962EDA9A170D055B0078F3A7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 962EDA99170D055B0078F3A7 /* Default-568h@2x.png */; };
+		962EDA9D170D055B0078F3A7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 962EDA9B170D055B0078F3A7 /* MainStoryboard_iPhone.storyboard */; };
+		962EDAA3170D055B0078F3A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 962EDAA2170D055B0078F3A7 /* ViewController.m */; };
+		96881617170D0F0500EB410B /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96881616170D0F0500EB410B /* AudioToolbox.framework */; };
+		96C22DDC170D079900DD5AEE /* wall_wood_texture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 96C22DDB170D079900DD5AEE /* wall_wood_texture.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		962EDA80170D055B0078F3A7 /* Masseuse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Masseuse.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		962EDA83170D055B0078F3A7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		962EDA85170D055B0078F3A7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		962EDA87170D055B0078F3A7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		962EDA8B170D055B0078F3A7 /* Masseuse-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Masseuse-Info.plist"; sourceTree = "<group>"; };
+		962EDA8D170D055B0078F3A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		962EDA8F170D055B0078F3A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		962EDA91170D055B0078F3A7 /* Masseuse-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Masseuse-Prefix.pch"; sourceTree = "<group>"; };
+		962EDA92170D055B0078F3A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		962EDA93170D055B0078F3A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		962EDA95170D055B0078F3A7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		962EDA97170D055B0078F3A7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		962EDA99170D055B0078F3A7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		962EDA9C170D055B0078F3A7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		962EDAA1170D055B0078F3A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		962EDAA2170D055B0078F3A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		96881616170D0F0500EB410B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		96C22DDB170D079900DD5AEE /* wall_wood_texture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall_wood_texture.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		962EDA7D170D055B0078F3A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96881617170D0F0500EB410B /* AudioToolbox.framework in Frameworks */,
+				962EDA84170D055B0078F3A7 /* UIKit.framework in Frameworks */,
+				962EDA86170D055B0078F3A7 /* Foundation.framework in Frameworks */,
+				962EDA88170D055B0078F3A7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		962EDA77170D055B0078F3A7 = {
+			isa = PBXGroup;
+			children = (
+				96881616170D0F0500EB410B /* AudioToolbox.framework */,
+				96C22DDD170D0E1C00DD5AEE /* Graphics */,
+				962EDA89170D055B0078F3A7 /* Masseuse */,
+				962EDA82170D055B0078F3A7 /* Frameworks */,
+				962EDA81170D055B0078F3A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		962EDA81170D055B0078F3A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				962EDA80170D055B0078F3A7 /* Masseuse.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		962EDA82170D055B0078F3A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				962EDA83170D055B0078F3A7 /* UIKit.framework */,
+				962EDA85170D055B0078F3A7 /* Foundation.framework */,
+				962EDA87170D055B0078F3A7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		962EDA89170D055B0078F3A7 /* Masseuse */ = {
+			isa = PBXGroup;
+			children = (
+				962EDA92170D055B0078F3A7 /* AppDelegate.h */,
+				962EDA93170D055B0078F3A7 /* AppDelegate.m */,
+				962EDA9B170D055B0078F3A7 /* MainStoryboard_iPhone.storyboard */,
+				962EDAA1170D055B0078F3A7 /* ViewController.h */,
+				962EDAA2170D055B0078F3A7 /* ViewController.m */,
+				962EDA8A170D055B0078F3A7 /* Supporting Files */,
+			);
+			path = Masseuse;
+			sourceTree = "<group>";
+		};
+		962EDA8A170D055B0078F3A7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				962EDA8B170D055B0078F3A7 /* Masseuse-Info.plist */,
+				962EDA8C170D055B0078F3A7 /* InfoPlist.strings */,
+				962EDA8F170D055B0078F3A7 /* main.m */,
+				962EDA91170D055B0078F3A7 /* Masseuse-Prefix.pch */,
+				962EDA95170D055B0078F3A7 /* Default.png */,
+				962EDA97170D055B0078F3A7 /* Default@2x.png */,
+				962EDA99170D055B0078F3A7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96C22DDD170D0E1C00DD5AEE /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				96C22DDB170D079900DD5AEE /* wall_wood_texture.jpg */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		962EDA7F170D055B0078F3A7 /* Masseuse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 962EDAA6170D055B0078F3A7 /* Build configuration list for PBXNativeTarget "Masseuse" */;
+			buildPhases = (
+				962EDA7C170D055B0078F3A7 /* Sources */,
+				962EDA7D170D055B0078F3A7 /* Frameworks */,
+				962EDA7E170D055B0078F3A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masseuse;
+			productName = Masseuse;
+			productReference = 962EDA80170D055B0078F3A7 /* Masseuse.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		962EDA78170D055B0078F3A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = hugey;
+			};
+			buildConfigurationList = 962EDA7B170D055B0078F3A7 /* Build configuration list for PBXProject "Masseuse" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 962EDA77170D055B0078F3A7;
+			productRefGroup = 962EDA81170D055B0078F3A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				962EDA7F170D055B0078F3A7 /* Masseuse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		962EDA7E170D055B0078F3A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962EDA8E170D055B0078F3A7 /* InfoPlist.strings in Resources */,
+				962EDA96170D055B0078F3A7 /* Default.png in Resources */,
+				962EDA98170D055B0078F3A7 /* Default@2x.png in Resources */,
+				962EDA9A170D055B0078F3A7 /* Default-568h@2x.png in Resources */,
+				962EDA9D170D055B0078F3A7 /* MainStoryboard_iPhone.storyboard in Resources */,
+				96C22DDC170D079900DD5AEE /* wall_wood_texture.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		962EDA7C170D055B0078F3A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				962EDA90170D055B0078F3A7 /* main.m in Sources */,
+				962EDA94170D055B0078F3A7 /* AppDelegate.m in Sources */,
+				962EDAA3170D055B0078F3A7 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		962EDA8C170D055B0078F3A7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				962EDA8D170D055B0078F3A7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		962EDA9B170D055B0078F3A7 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				962EDA9C170D055B0078F3A7 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		962EDAA4170D055B0078F3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		962EDAA5170D055B0078F3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		962EDAA7170D055B0078F3A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Masseuse/Masseuse-Prefix.pch";
+				INFOPLIST_FILE = "Masseuse/Masseuse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		962EDAA8170D055B0078F3A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Masseuse/Masseuse-Prefix.pch";
+				INFOPLIST_FILE = "Masseuse/Masseuse-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		962EDA7B170D055B0078F3A7 /* Build configuration list for PBXProject "Masseuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962EDAA4170D055B0078F3A7 /* Debug */,
+				962EDAA5170D055B0078F3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		962EDAA6170D055B0078F3A7 /* Build configuration list for PBXNativeTarget "Masseuse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				962EDAA7170D055B0078F3A7 /* Debug */,
+				962EDAA8170D055B0078F3A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 962EDA78170D055B0078F3A7 /* Project object */;
+}
