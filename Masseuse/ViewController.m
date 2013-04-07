@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "AudioServices.h"
+#import <AudioToolbox/AudioServices.h>
 #import <float.h>
 
 @interface ViewController () {
@@ -43,12 +43,14 @@
 
 -(void)timerFired {
     if (!isTapped) {
-        AudioServicesStopSystemSound(4095);
+        AudioServicesDisposeSystemSoundID(kSystemSoundID_Vibrate);
+        //AudioServicesStopSystemSound(4095);
     }
     
     if (isVibrating || resetNextFire) {
         resetNextFire = NO;
 
+        /*
         NSMutableDictionary* dict = [NSMutableDictionary dictionary];
         NSMutableArray* arr = [NSMutableArray array ];
         
@@ -66,7 +68,11 @@
         [dict setObject:arr forKey:@"VibePattern"];
         // looks like the intensity is between 0 and 1
         [dict setObject:[NSNumber numberWithFloat:intensityLevel] forKey:@"Intensity"];
+        
+         
         AudioServicesPlaySystemSoundWithVibration(4095,nil,dict);
+         */
+        AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
 
 
     }
@@ -127,6 +133,7 @@
     isTapped = YES;
     
     if (!isVibrating) {
+        /*
         NSMutableDictionary* dict = [NSMutableDictionary dictionary];
         NSMutableArray* arr = [NSMutableArray array ];
         
@@ -140,6 +147,8 @@
         [dict setObject:[NSNumber numberWithFloat:intensityLevel] forKey:@"Intensity"];
         
         AudioServicesPlaySystemSoundWithVibration(4095,nil,dict);
+         */
+        [self touchVibrate];
     }
 }
 
@@ -147,7 +156,17 @@
     isTapped = NO;
     
     if (!isVibrating) {
-        AudioServicesStopSystemSound(4095);
+        //AudioServicesStopSystemSound(4095);
+        
+        AudioServicesDisposeSystemSoundID(kSystemSoundID_Vibrate);
+    }
+}
+
+-(void)touchVibrate {
+    AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+
+    if (isTapped) {
+        [self performSelector:@selector(touchVibrate) withObject:nil afterDelay:0.1];
     }
 }
 

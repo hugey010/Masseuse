@@ -43,7 +43,6 @@
 		962EDAA2170D055B0078F3A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		963A8352171162B200261ADA /* iMasseuse_retina_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iMasseuse_retina_icon.png; sourceTree = "<group>"; };
 		963A8354171162B800261ADA /* iMasseuse_small_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iMasseuse_small_icon.png; sourceTree = "<group>"; };
-		96686DF417117C99007FD6E6 /* AudioServices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioServices.h; sourceTree = "<group>"; };
 		96881616170D0F0500EB410B /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		96C22DDB170D079900DD5AEE /* wall_wood_texture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall_wood_texture.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,7 +96,6 @@
 		962EDA89170D055B0078F3A7 /* Masseuse */ = {
 			isa = PBXGroup;
 			children = (
-				96686DF417117C99007FD6E6 /* AudioServices.h */,
 				962EDA92170D055B0078F3A7 /* AppDelegate.h */,
 				962EDA93170D055B0078F3A7 /* AppDelegate.m */,
 				962EDA9B170D055B0078F3A7 /* MainStoryboard_iPhone.storyboard */,
