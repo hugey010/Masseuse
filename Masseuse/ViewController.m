@@ -42,7 +42,6 @@
 }
 
 -(void)timerFired {
-    NSLog(@"timerFired");
     if (!isTapped) {
         AudioServicesStopSystemSound(4095);
     }
