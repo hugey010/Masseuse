@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import <AudioToolbox/AudioServices.h>
+#import "AudioServices.h"
 #import <float.h>
 
 @interface ViewController () {
@@ -66,7 +66,6 @@
         [dict setObject:arr forKey:@"VibePattern"];
         // looks like the intensity is between 0 and 1
         [dict setObject:[NSNumber numberWithFloat:intensityLevel] forKey:@"Intensity"];
-        
         AudioServicesPlaySystemSoundWithVibration(4095,nil,dict);
 
 

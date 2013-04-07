@@ -46,7 +46,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="onTintColor" red="1" green="0.86591485899999998" blue="0.74851337520000005" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <action selector="toggleValueChanged:" destination="2" eventType="valueChanged" id="syT-Wd-Uco"/>
+                                    <action selector="toggleValueChanged:" destination="2" eventType="valueChanged" id="5Xp-Fe-CPD"/>
                                 </connections>
                             </switch>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" id="M5P-ug-goi">

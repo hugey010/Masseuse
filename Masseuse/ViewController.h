@@ -10,9 +10,8 @@
 
 @interface ViewController : UIViewController
 
-- (IBAction)sliderValueChanged:(id)sender;
 - (IBAction)intensitySliderValueChanged:(id)sender;
 - (IBAction)pulseSliderValueChanged:(id)sender;
-
+- (IBAction)toggleValueChanged:(id)sender;
 
 @end
